@@ -1,0 +1,51 @@
+# -------------
+# Shell Session
+# -------------
+
+alias x='exit'
+alias k="/usr/bin/osascript -e 'tell application \"System Events\" to tell process \"Terminal\" to keystroke \"k\" using command down'"
+
+# ----------------
+# File & Directory
+# ----------------
+
+alias ls='eza -h'
+alias l='eza -hl'
+alias ll='eza -hla'
+
+alias o='open'
+alias r='rm -rf'
+alias c='bat --style=plain --paging=never --theme="TwoDark"'
+alias pwdcp='pwd | pbcopy' # Copy the current path
+alias rsc='rm Screen\ Shot\ *'
+
+# ---------
+# Edit file
+# ---------
+
+alias v='nvim'
+alias vz='v ~/.zshrc'
+alias vza='v ~/.config/zsh/alias'
+
+# ---------------
+# Go to directory
+# ---------------
+
+# Main Directory
+alias s='cd ~'
+alias df='cd ~/.config'
+alias dc='cd ~/Documents'
+alias dl='cd ~/Downloads'
+alias dt='cd ~/Desktop'
+alias rp='cd ~/repo'
+alias sc='cd ~/script'
+alias poc='cd ~/poc'
+
+# ----
+# Git
+# ----
+
+alias g='git status'
+alias gg='git fetch & git pull'
+alias gcod='git checkout develop'
+alias gcom='git checkout master'
