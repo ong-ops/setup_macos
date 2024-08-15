@@ -2,6 +2,9 @@
 -- Vim
 -----------
 vim.cmd("let mapleader = ' '")
+-- Fix slow open py file
+vim.cmd("let g:python_host_prog = '/usr/bin/python2'")
+vim.cmd("let g:python3_host_prog = '/usr/bin/python3'")
 
 vim.keymap.set('i', 'jj', '<ESC>')
 
