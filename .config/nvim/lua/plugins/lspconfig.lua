@@ -7,6 +7,9 @@ return {
     },
     {
         "neovim/nvim-lspconfig",
+        opts = {
+            format = { timeout_ms = 60000 }
+        },
         config = function()
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
             local lspconfig = require("lspconfig")
