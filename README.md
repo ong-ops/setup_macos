@@ -1,2 +1,5 @@
-# setup_macos
-Setup MacOS
+# Setup MacOS
+
+- zsh
+- kitty
+- nvim
