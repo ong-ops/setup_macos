@@ -26,3 +26,7 @@ vim.cmd.set('clipboard=unnamed')
 -- Auto Insert
 vim.cmd([[autocmd BufEnter * set formatoptions-=r]])
 vim.cmd([[autocmd BufEnter * set formatoptions-=o]])
+
+-- Searching
+vim.cmd.set('ignorecase')
+vim.cmd.set('smartcase')
