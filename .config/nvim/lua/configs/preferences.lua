@@ -8,6 +8,7 @@ vim.cmd.set('relativenumber')
 -- Text
 vim.cmd.set('nowrap')
 vim.cmd.set('nofixeol') -- No add newline at the end of line in file
+vim.cmd([[hi Visual guifg=#74FF86 guibg=#18536D gui=none]]) -- Text Selected
 
 -- Indent
 vim.cmd.set('smartindent') -- autoindenting when starting a new line
