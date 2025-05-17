@@ -18,6 +18,7 @@ alias r='rm -rf'
 alias c='bat --style=plain --paging=never --theme="TwoDark"'
 alias pwdcp='pwd | pbcopy' # Copy the current path
 alias rsc='rm Screen\ Shot\ *'
+alias img='wezterm imgcat'
 
 # ---------
 # Edit file
@@ -46,6 +47,12 @@ alias poc='cd ~/poc'
 # ----
 
 alias g='git status'
-alias gg='git fetch & git pull'
+alias gfl='git fetch & git pull'
 alias gcod='git checkout develop'
 alias gcom='git checkout master'
+
+# -------
+# Program
+# -------
+
+alias idea='open -na "IntelliJ IDEA CE.app"'
