@@ -1,5 +1,5 @@
 # Setup MacOS
 
-- zsh
-- kitty
+- zsh with alias
+- wezterm
 - nvim
